@@ -1,0 +1,172 @@
+2024-06-11T09:13:09.543+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Starting OperatorServiceImplTest using Java 17.0.9 with PID 29100 (started by srivalli.p in D:\NumberPortabilityPortalProject\npp\backend)
+2024-06-11T09:13:09.565+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T09:13:12.118+05:30  INFO 29100 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11T09:13:12.259+05:30  INFO 29100 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 6 JPA repository interfaces.
+2024-06-11T09:13:13.761+05:30  INFO 29100 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11T09:13:13.967+05:30  INFO 29100 --- [npp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11T09:13:14.083+05:30  INFO 29100 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-11T09:13:14.472+05:30  INFO 29100 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11T09:13:14.581+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-11T09:13:15.887+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68838767
+2024-06-11T09:13:15.897+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-11T09:13:16.114+05:30  WARN 29100 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11T09:13:18.802+05:30  INFO 29100 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11T09:13:19.084+05:30  INFO 29100 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T09:13:20.505+05:30  INFO 29100 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-11T09:13:20.509+05:30  WARN 29100 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-11T09:13:21.255+05:30  WARN 29100 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11T09:13:23.148+05:30  INFO 29100 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2acacdf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d44f15d, org.springframework.security.web.context.SecurityContextHolderFilter@7b5f886d, org.springframework.security.web.header.HeaderWriterFilter@5afb0a4f, org.springframework.web.filter.CorsFilter@674c9079, org.springframework.security.web.authentication.logout.LogoutFilter@181b8d0c, com.project.npp.security.jwt.AuthTokenFilter@45682e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9504a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a5e19fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b5854a7, org.springframework.security.web.session.SessionManagementFilter@5a59f3d9, org.springframework.security.web.access.ExceptionTranslationFilter@348523f2, org.springframework.security.web.access.intercept.AuthorizationFilter@14c5625d]
+2024-06-11T09:13:25.078+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Started OperatorServiceImplTest in 16.484 seconds (process running for 27.224)
+2024-06-11T09:13:25.174+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor added successfully!!
+2024-06-11T09:13:25.239+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-11T09:13:25.255+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-11T09:13:25.287+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-11T09:13:25.302+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-11T09:13:25.338+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-11T09:13:25.352+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-11T09:13:25.367+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-11T09:13:25.401+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-11T09:13:25.551+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:13:25.558+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:13:25.567+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-11T09:13:25.579+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-11T09:13:25.589+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:13:25.598+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:13:25.604+05:30 ERROR 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-11T09:13:25.615+05:30  INFO 29100 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:13:25.632+05:30  INFO 29100 --- [npp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.npp.NppApplicationTests]: NppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-11T09:13:25.671+05:30  INFO 29100 --- [npp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.npp.NppApplication for test class com.project.npp.NppApplicationTests
+2024-06-11T09:13:25.685+05:30  INFO 29100 --- [npp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-06-11T09:13:25.786+05:30  INFO 29100 --- [npp] [main] com.project.npp.NppApplicationTests      : Starting NppApplicationTests using Java 17.0.9 with PID 29100 (started by srivalli.p in D:\NumberPortabilityPortalProject\npp\backend)
+2024-06-11T09:13:25.787+05:30  INFO 29100 --- [npp] [main] com.project.npp.NppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T09:13:27.189+05:30  INFO 29100 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11T09:13:27.317+05:30  INFO 29100 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 6 JPA repository interfaces.
+2024-06-11T09:13:27.719+05:30  INFO 29100 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11T09:13:27.743+05:30  INFO 29100 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-11T09:13:27.792+05:30  INFO 29100 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11T09:13:27.796+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-11T09:13:27.849+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@138617da
+2024-06-11T09:13:27.850+05:30  INFO 29100 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-11T09:13:27.854+05:30  WARN 29100 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11T09:13:28.390+05:30  INFO 29100 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11T09:13:28.585+05:30  INFO 29100 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T09:13:28.694+05:30  INFO 29100 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-11T09:13:28.696+05:30  WARN 29100 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-11T09:13:28.894+05:30  WARN 29100 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11T09:13:29.176+05:30  INFO 29100 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3484b8db, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@726e142d, org.springframework.security.web.context.SecurityContextHolderFilter@4981dd9, org.springframework.security.web.header.HeaderWriterFilter@7f070f66, org.springframework.web.filter.CorsFilter@4aa5a13a, org.springframework.security.web.authentication.logout.LogoutFilter@3e9f0660, com.project.npp.security.jwt.AuthTokenFilter@20b52576, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c5a9ddc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b61c70e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10031e49, org.springframework.security.web.session.SessionManagementFilter@7d31918a, org.springframework.security.web.access.ExceptionTranslationFilter@1b5a6a1c, org.springframework.security.web.access.intercept.AuthorizationFilter@23ef226d]
+2024-06-11T09:13:29.496+05:30  INFO 29100 --- [npp] [main] com.project.npp.NppApplicationTests      : Started NppApplicationTests in 3.812 seconds (process running for 31.642)
+2024-06-11T09:13:29.555+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T09:13:29.564+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-11T09:13:29.602+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-11T09:13:29.616+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T09:13:29.618+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-11T09:13:29.643+05:30  INFO 29100 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-11T09:14:18.996+05:30  INFO 21780 --- [npp] [restartedMain] com.project.npp.NppApplication           : Starting NppApplication using Java 17.0.9 with PID 21780 (D:\NumberPortabilityPortalProject\npp\backend\target\classes started by srivalli.p in D:\NumberPortabilityPortalProject\npp\backend)
+2024-06-11T09:14:19.003+05:30  INFO 21780 --- [npp] [restartedMain] com.project.npp.NppApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T09:14:19.148+05:30  INFO 21780 --- [npp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-11T09:14:19.149+05:30  INFO 21780 --- [npp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-11T09:14:21.303+05:30  INFO 21780 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11T09:14:21.529+05:30  INFO 21780 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 6 JPA repository interfaces.
+2024-06-11T09:14:22.588+05:30  INFO 21780 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-11T09:14:22.615+05:30  INFO 21780 --- [npp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-11T09:14:22.616+05:30  INFO 21780 --- [npp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-11T09:14:22.757+05:30  INFO 21780 --- [npp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-11T09:14:22.757+05:30  INFO 21780 --- [npp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3606 ms
+2024-06-11T09:14:22.964+05:30  INFO 21780 --- [npp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11T09:14:23.026+05:30  INFO 21780 --- [npp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11T09:14:23.069+05:30  INFO 21780 --- [npp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-11T09:14:23.458+05:30  INFO 21780 --- [npp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11T09:14:23.494+05:30  INFO 21780 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-11T09:14:23.858+05:30  INFO 21780 --- [npp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@200ae99b
+2024-06-11T09:14:23.861+05:30  INFO 21780 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-11T09:14:23.933+05:30  WARN 21780 --- [npp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11T09:14:25.143+05:30  INFO 21780 --- [npp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11T09:14:25.305+05:30  INFO 21780 --- [npp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T09:14:25.722+05:30  INFO 21780 --- [npp] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-11T09:14:25.723+05:30  WARN 21780 --- [npp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-11T09:14:25.962+05:30  WARN 21780 --- [npp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11T09:14:26.373+05:30  INFO 21780 --- [npp] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f7fb2d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eb8e994, org.springframework.security.web.context.SecurityContextHolderFilter@35b62f2a, org.springframework.security.web.header.HeaderWriterFilter@6d21b4c7, org.springframework.web.filter.CorsFilter@75d2aaba, org.springframework.security.web.authentication.logout.LogoutFilter@3e482c25, com.project.npp.security.jwt.AuthTokenFilter@724a8fa2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@223d69a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5168ea23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12a1362e, org.springframework.security.web.session.SessionManagementFilter@4c63f48, org.springframework.security.web.access.ExceptionTranslationFilter@16b358f2, org.springframework.security.web.access.intercept.AuthorizationFilter@609036ca]
+2024-06-11T09:14:26.688+05:30  INFO 21780 --- [npp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-11T09:14:26.759+05:30  INFO 21780 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-11T09:14:26.777+05:30  INFO 21780 --- [npp] [restartedMain] com.project.npp.NppApplication           : Started NppApplication in 9.404 seconds (process running for 13.095)
+2024-06-11T09:15:18.740+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11T09:15:18.741+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-11T09:15:18.744+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-11T09:16:13.429+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.project.npp.controller.AuthController  : signin
+2024-06-11T09:16:13.778+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:16:47.062+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:16:47.065+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:16:47.098+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:16:47.098+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:16:47.729+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:16:47.732+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : Get all Operators
+2024-06-11T09:16:47.739+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-11T09:16:47.739+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : Opertor found
+2024-06-11T09:16:59.706+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:16:59.711+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:16:59.734+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:16:59.735+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:17:52.319+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:17:52.323+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.controller.SystemAdminController   : Get all Operators
+2024-06-11T09:17:52.328+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-11T09:17:52.329+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.controller.SystemAdminController   : Opertor found
+2024-06-11T09:17:53.485+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:17:53.490+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:17:53.511+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:17:53.512+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:34:05.749+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-3] c.project.npp.controller.AuthController  : signin
+2024-06-11T09:34:05.768+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-3] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:34:19.123+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:34:19.126+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:34:19.137+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:34:19.137+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:34:52.100+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.project.npp.controller.AuthController  : signin
+2024-06-11T09:34:52.108+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:34:54.228+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:34:54.230+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.n.c.CustomerServiceController        : Get all customers
+2024-06-11T09:34:54.243+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:34:54.243+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.n.c.CustomerServiceController        : Customer found
+2024-06-11T09:34:56.799+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:34:56.831+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-11T09:34:56.831+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-9] c.p.n.c.CustomerServiceController        : Portrequest found
+2024-06-11T09:35:03.970+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:35:03.970+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.c.CustomerServiceController        : Get all customers
+2024-06-11T09:35:03.984+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-11T09:35:03.984+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.c.CustomerServiceController        : Customer found
+2024-06-11T09:35:12.987+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:35:13.006+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-11T09:35:13.006+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-1] c.p.n.c.CustomerServiceController        : Portrequest found
+2024-06-11T09:44:06.576+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-3] c.project.npp.controller.AuthController  : signin
+2024-06-11T09:44:06.588+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-3] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:44:12.951+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:44:12.954+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:44:12.970+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:44:12.970+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:48:45.329+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:48:45.333+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:48:45.358+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:48:45.358+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:48:59.283+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:48:59.285+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:48:59.303+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:48:59.304+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-7] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:49:09.221+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:49:09.224+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:49:09.263+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:49:09.265+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:51:36.801+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:51:36.803+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:51:36.819+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:51:36.819+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-10] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:52:39.284+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-2] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:52:39.286+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-2] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:52:39.305+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-2] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:52:39.306+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-2] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:56:36.310+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:56:36.313+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:56:36.317+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:56:36.317+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-4] c.p.n.controller.SystemAdminController   : User found
+2024-06-11T09:56:54.392+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-11T09:56:54.392+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-11T09:56:54.408+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-11T09:56:54.408+05:30  INFO 21780 --- [npp] [http-nio-8080-exec-5] c.p.n.controller.SystemAdminController   : User found

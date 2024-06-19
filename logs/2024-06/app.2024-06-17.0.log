@@ -1,0 +1,259 @@
+2024-06-17T13:06:25.647+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : Starting NppApplication using Java 17.0.9 with PID 18300 (D:\NumberPortabilityPortal\npp\backend\target\classes started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T13:06:25.654+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T13:06:25.708+05:30  INFO 18300 --- [npp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-17T13:06:25.708+05:30  INFO 18300 --- [npp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-17T13:06:26.336+05:30  INFO 18300 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T13:06:26.410+05:30  INFO 18300 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+2024-06-17T13:06:26.757+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-17T13:06:26.767+05:30  INFO 18300 --- [npp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-17T13:06:26.767+05:30  INFO 18300 --- [npp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-17T13:06:26.813+05:30  INFO 18300 --- [npp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-17T13:06:26.813+05:30  INFO 18300 --- [npp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2024-06-17T13:06:26.937+05:30  INFO 18300 --- [npp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T13:06:26.969+05:30  INFO 18300 --- [npp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-17T13:06:26.990+05:30  INFO 18300 --- [npp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T13:06:27.174+05:30  INFO 18300 --- [npp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T13:06:27.190+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-17T13:06:27.392+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c8b68e8
+2024-06-17T13:06:27.395+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-17T13:06:27.430+05:30  WARN 18300 --- [npp] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T13:06:27.433+05:30  WARN 18300 --- [npp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T13:06:28.071+05:30  INFO 18300 --- [npp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T13:06:28.175+05:30  INFO 18300 --- [npp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T13:06:28.424+05:30  INFO 18300 --- [npp] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T13:06:28.425+05:30  WARN 18300 --- [npp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T13:06:28.538+05:30  WARN 18300 --- [npp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T13:06:28.787+05:30  INFO 18300 --- [npp] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5cba57a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bf94cf2, org.springframework.security.web.context.SecurityContextHolderFilter@18a1fc65, org.springframework.security.web.header.HeaderWriterFilter@48a97e64, org.springframework.web.filter.CorsFilter@1f23f967, org.springframework.security.web.authentication.logout.LogoutFilter@6216445d, com.project.npp.security.jwt.AuthTokenFilter@17f3483, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@654ca0b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f6c4ce1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cbd6e72, org.springframework.security.web.session.SessionManagementFilter@176524d5, org.springframework.security.web.access.ExceptionTranslationFilter@3e6c029b, org.springframework.security.web.access.intercept.AuthorizationFilter@6e9334e2]
+2024-06-17T13:06:28.991+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-17T13:06:29.028+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-17T13:06:29.035+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : Started NppApplication in 3.658 seconds (process running for 4.289)
+2024-06-17T13:06:53.272+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-17T13:06:53.272+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-17T13:06:53.272+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-17T13:07:12.970+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-2] c.project.npp.controller.AuthController  : signin
+2024-06-17T13:07:13.321+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-2] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T13:08:03.874+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-3] c.project.npp.controller.AuthController  : signin
+2024-06-17T13:08:03.886+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-3] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T13:08:17.064+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-5] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T13:08:17.068+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-5] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-17T13:08:17.100+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-5] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T13:08:17.100+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-5] c.p.n.controller.SystemAdminController   : User found
+2024-06-17T13:08:32.841+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T13:08:32.844+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : Get all Users
+2024-06-17T13:08:32.866+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-6] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T13:08:32.866+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-6] c.p.n.controller.SystemAdminController   : User found
+2024-06-17T13:08:33.928+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T13:08:33.931+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : Get all Operators
+2024-06-17T13:08:33.939+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-8] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-17T13:08:33.939+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-8] c.p.n.controller.SystemAdminController   : Opertor found
+2024-06-17T14:30:52.984+05:30  WARN 18300 --- [npp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m55s369ms741µs600ns).
+2024-06-17T14:47:24.632+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Starting OperatorServiceImplTest using Java 17.0.9 with PID 1332 (started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T14:47:24.634+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T14:47:25.998+05:30  INFO 1332 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T14:47:26.112+05:30  INFO 1332 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2024-06-17T14:47:26.832+05:30  INFO 1332 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T14:47:26.942+05:30  INFO 1332 --- [npp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-17T14:47:27.004+05:30  INFO 1332 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T14:47:27.154+05:30  INFO 1332 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T14:47:27.196+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-17T14:47:27.559+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673a5aa7
+2024-06-17T14:47:27.562+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-17T14:47:27.626+05:30  WARN 1332 --- [npp] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T14:47:27.634+05:30  WARN 1332 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T14:47:28.755+05:30  INFO 1332 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T14:47:28.904+05:30  INFO 1332 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:47:29.565+05:30  INFO 1332 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T14:47:29.567+05:30  WARN 1332 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T14:47:29.808+05:30  WARN 1332 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T14:47:30.338+05:30  INFO 1332 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fad6743, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68a0a4ae, org.springframework.security.web.context.SecurityContextHolderFilter@5e147821, org.springframework.security.web.header.HeaderWriterFilter@33f17d3d, org.springframework.web.filter.CorsFilter@426753a6, org.springframework.security.web.authentication.logout.LogoutFilter@6415112c, com.project.npp.security.jwt.AuthTokenFilter@5a59f3d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@395065af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a555005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2692910f, org.springframework.security.web.session.SessionManagementFilter@5621119d, org.springframework.security.web.access.ExceptionTranslationFilter@1377e395, org.springframework.security.web.access.intercept.AuthorizationFilter@2411cf8b]
+2024-06-17T14:47:30.874+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Started OperatorServiceImplTest in 6.868 seconds (process running for 12.675)
+2024-06-17T14:47:30.908+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor added successfully!!
+2024-06-17T14:47:30.921+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-17T14:47:30.929+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-17T14:47:30.937+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-17T14:47:30.945+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-17T14:47:30.951+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-17T14:47:30.956+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-17T14:47:30.963+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-17T14:47:30.969+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-17T14:47:31.019+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:47:31.023+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:47:31.027+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:47:31.032+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:47:31.035+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:47:31.038+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:47:31.042+05:30 ERROR 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:47:31.046+05:30  INFO 1332 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:47:31.053+05:30  INFO 1332 --- [npp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.npp.NppApplicationTests]: NppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-17T14:47:31.068+05:30  INFO 1332 --- [npp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.npp.NppApplication for test class com.project.npp.NppApplicationTests
+2024-06-17T14:47:31.075+05:30  INFO 1332 --- [npp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-06-17T14:47:31.100+05:30  INFO 1332 --- [npp] [main] com.project.npp.NppApplicationTests      : Starting NppApplicationTests using Java 17.0.9 with PID 1332 (started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T14:47:31.101+05:30  INFO 1332 --- [npp] [main] com.project.npp.NppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T14:47:31.359+05:30  INFO 1332 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T14:47:31.402+05:30  INFO 1332 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2024-06-17T14:47:31.509+05:30  INFO 1332 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T14:47:31.514+05:30  INFO 1332 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T14:47:31.530+05:30  INFO 1332 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T14:47:31.532+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-17T14:47:31.549+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42af751f
+2024-06-17T14:47:31.550+05:30  INFO 1332 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-17T14:47:31.552+05:30  WARN 1332 --- [npp] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T14:47:31.553+05:30  WARN 1332 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T14:47:31.656+05:30  INFO 1332 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T14:47:31.723+05:30  INFO 1332 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:47:31.774+05:30  INFO 1332 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T14:47:31.775+05:30  WARN 1332 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T14:47:31.853+05:30  WARN 1332 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T14:47:31.945+05:30  INFO 1332 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18b25ef3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60fc87e8, org.springframework.security.web.context.SecurityContextHolderFilter@50bae745, org.springframework.security.web.header.HeaderWriterFilter@726e3907, org.springframework.web.filter.CorsFilter@18f52e63, org.springframework.security.web.authentication.logout.LogoutFilter@739174f1, com.project.npp.security.jwt.AuthTokenFilter@1dbf21c5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c9b2d0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fbe879b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35188cd2, org.springframework.security.web.session.SessionManagementFilter@2517d499, org.springframework.security.web.access.ExceptionTranslationFilter@32b1d581, org.springframework.security.web.access.intercept.AuthorizationFilter@5d4e11ce]
+2024-06-17T14:47:32.048+05:30  INFO 1332 --- [npp] [main] com.project.npp.NppApplicationTests      : Started NppApplicationTests in 0.974 seconds (process running for 13.849)
+2024-06-17T14:47:32.076+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:47:32.080+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-17T14:47:32.092+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-17T14:47:32.103+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:47:32.104+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-17T14:47:32.111+05:30  INFO 1332 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-17T14:48:09.677+05:30  INFO 23328 --- [npp] [main] com.project.npp.NppApplicationTests      : Starting NppApplicationTests using Java 17.0.9 with PID 23328 (started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T14:48:09.681+05:30  INFO 23328 --- [npp] [main] com.project.npp.NppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T14:48:11.470+05:30  INFO 23328 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T14:48:11.672+05:30  INFO 23328 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 184 ms. Found 6 JPA repository interfaces.
+2024-06-17T14:48:12.714+05:30  INFO 23328 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T14:48:12.885+05:30  INFO 23328 --- [npp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-17T14:48:12.970+05:30  INFO 23328 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T14:48:13.306+05:30  INFO 23328 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T14:48:13.367+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-17T14:48:13.920+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c07798b
+2024-06-17T14:48:13.924+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-17T14:48:14.030+05:30  WARN 23328 --- [npp] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T14:48:14.043+05:30  WARN 23328 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T14:48:15.641+05:30  INFO 23328 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T14:48:15.839+05:30  INFO 23328 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:16.494+05:30  INFO 23328 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T14:48:16.497+05:30  WARN 23328 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T14:48:16.765+05:30  WARN 23328 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T14:48:17.396+05:30  INFO 23328 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@94ae80e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28a7ef5d, org.springframework.security.web.context.SecurityContextHolderFilter@22b3fe04, org.springframework.security.web.header.HeaderWriterFilter@6dcb95c, org.springframework.web.filter.CorsFilter@466a36d7, org.springframework.security.web.authentication.logout.LogoutFilter@5fbe35d6, com.project.npp.security.jwt.AuthTokenFilter@68dc12d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3877161c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38644646, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65891190, org.springframework.security.web.session.SessionManagementFilter@3ec57b57, org.springframework.security.web.access.ExceptionTranslationFilter@61f2600a, org.springframework.security.web.access.intercept.AuthorizationFilter@4b9d5a20]
+2024-06-17T14:48:18.074+05:30  INFO 23328 --- [npp] [main] com.project.npp.NppApplicationTests      : Started NppApplicationTests in 9.395 seconds (process running for 17.64)
+2024-06-17T14:48:18.208+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log found
+2024-06-17T14:48:18.212+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log found
+2024-06-17T14:48:18.216+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log found
+2024-06-17T14:48:18.222+05:30 ERROR 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Check failed
+2024-06-17T14:48:18.227+05:30 ERROR 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log not found
+2024-06-17T14:48:18.234+05:30 ERROR 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log not found
+2024-06-17T14:48:18.238+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log found
+2024-06-17T14:48:18.239+05:30 ERROR 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log not found
+2024-06-17T14:48:18.243+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Check passed
+2024-06-17T14:48:18.247+05:30  INFO 23328 --- [npp] [main] c.p.n.service.ComplianceLogsServiceImpl  : Log found
+2024-06-17T14:48:18.312+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:48:18.315+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:48:18.318+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:48:18.324+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:48:18.327+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:48:18.333+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:48:18.338+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer not found
+2024-06-17T14:48:18.342+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.CustomerServiceImpl      : Customer found
+2024-06-17T14:48:18.352+05:30  INFO 23328 --- [npp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.npp.service.OperatorServiceImplTest]: OperatorServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-17T14:48:18.387+05:30  INFO 23328 --- [npp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.npp.NppApplication for test class com.project.npp.service.OperatorServiceImplTest
+2024-06-17T14:48:18.392+05:30  INFO 23328 --- [npp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-06-17T14:48:18.414+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Starting OperatorServiceImplTest using Java 17.0.9 with PID 23328 (started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T14:48:18.415+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T14:48:18.711+05:30  INFO 23328 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T14:48:18.750+05:30  INFO 23328 --- [npp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 6 JPA repository interfaces.
+2024-06-17T14:48:18.945+05:30  INFO 23328 --- [npp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T14:48:18.948+05:30  INFO 23328 --- [npp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T14:48:18.975+05:30  INFO 23328 --- [npp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T14:48:18.977+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-17T14:48:19.001+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d56dc1
+2024-06-17T14:48:19.002+05:30  INFO 23328 --- [npp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-17T14:48:19.004+05:30  WARN 23328 --- [npp] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T14:48:19.004+05:30  WARN 23328 --- [npp] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T14:48:19.141+05:30  INFO 23328 --- [npp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T14:48:19.204+05:30  INFO 23328 --- [npp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:19.278+05:30  INFO 23328 --- [npp] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T14:48:19.279+05:30  WARN 23328 --- [npp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T14:48:19.360+05:30  WARN 23328 --- [npp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T14:48:19.471+05:30  INFO 23328 --- [npp] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d628db3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ed4d7de, org.springframework.security.web.context.SecurityContextHolderFilter@38171ed8, org.springframework.security.web.header.HeaderWriterFilter@3cfc3dd0, org.springframework.web.filter.CorsFilter@5c779eb0, org.springframework.security.web.authentication.logout.LogoutFilter@3714962f, com.project.npp.security.jwt.AuthTokenFilter@f0ec739, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@739d8d77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ed22c69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57938148, org.springframework.security.web.session.SessionManagementFilter@7bfc484c, org.springframework.security.web.access.ExceptionTranslationFilter@1f6a8568, org.springframework.security.web.access.intercept.AuthorizationFilter@1773938d]
+2024-06-17T14:48:19.555+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImplTest  : Started OperatorServiceImplTest in 1.164 seconds (process running for 19.122)
+2024-06-17T14:48:19.566+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor added successfully!!
+2024-06-17T14:48:19.575+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-17T14:48:19.581+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-17T14:48:19.589+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-17T14:48:19.599+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer found
+2024-06-17T14:48:19.609+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor not found
+2024-06-17T14:48:19.619+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-17T14:48:19.629+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Customer not found
+2024-06-17T14:48:19.637+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.OperatorServiceImpl      : Opertor found
+2024-06-17T14:48:19.703+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request not found
+2024-06-17T14:48:19.709+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request not found
+2024-06-17T14:48:19.713+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-17T14:48:19.717+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request not found
+2024-06-17T14:48:19.724+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-17T14:48:19.729+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request added successfully
+2024-06-17T14:48:19.737+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-17T14:48:19.742+05:30 ERROR 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request not found
+2024-06-17T14:48:19.749+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.PortRequestServiceImpl   : Port request found
+2024-06-17T14:48:19.822+05:30  INFO 23328 --- [npp] [main] c.project.npp.service.RoleServiceImpl    : Role found
+2024-06-17T14:48:19.825+05:30  INFO 23328 --- [npp] [main] c.project.npp.service.RoleServiceImpl    : Role found
+2024-06-17T14:48:19.829+05:30  INFO 23328 --- [npp] [main] c.project.npp.service.RoleServiceImpl    : Role found
+2024-06-17T14:48:19.833+05:30  INFO 23328 --- [npp] [main] c.project.npp.service.RoleServiceImpl    : Role found
+2024-06-17T14:48:19.892+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T14:48:19.895+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.900+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.904+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T14:48:19.909+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T14:48:19.911+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.916+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.919+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.925+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.931+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.934+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.936+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role found
+2024-06-17T14:48:19.938+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T14:48:19.942+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : User added successfully !!
+2024-06-17T14:48:19.945+05:30  INFO 23328 --- [npp] [main] c.p.npp.service.UserEntityServiceImpl    : Role updated successfully!
+2024-06-17T14:48:20.013+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:20.019+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-17T14:48:20.031+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-17T14:48:20.035+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:20.036+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-17T14:48:20.042+05:30  INFO 23328 --- [npp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-17T14:48:29.134+05:30  INFO 18300 --- [npp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-06-17T14:48:29.166+05:30  INFO 18300 --- [npp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:29.170+05:30  INFO 18300 --- [npp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-17T14:48:29.180+05:30  INFO 18300 --- [npp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-17T14:48:29.347+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : Starting NppApplication using Java 17.0.9 with PID 18300 (D:\NumberPortabilityPortal\npp\backend\target\classes started by supriya.j in D:\NumberPortabilityPortal\npp\backend)
+2024-06-17T14:48:29.348+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-06-17T14:48:29.560+05:30  INFO 18300 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17T14:48:29.593+05:30  INFO 18300 --- [npp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+2024-06-17T14:48:29.691+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-17T14:48:29.693+05:30  INFO 18300 --- [npp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-17T14:48:29.693+05:30  INFO 18300 --- [npp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-17T14:48:29.718+05:30  INFO 18300 --- [npp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-17T14:48:29.718+05:30  INFO 18300 --- [npp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2024-06-17T14:48:29.754+05:30  INFO 18300 --- [npp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17T14:48:29.756+05:30  INFO 18300 --- [npp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-17T14:48:29.764+05:30  INFO 18300 --- [npp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-17T14:48:29.766+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-17T14:48:29.780+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c63fbb1
+2024-06-17T14:48:29.781+05:30  INFO 18300 --- [npp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-17T14:48:29.782+05:30  WARN 18300 --- [npp] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-17T14:48:29.782+05:30  WARN 18300 --- [npp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-17T14:48:29.895+05:30  INFO 18300 --- [npp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-17T14:48:29.949+05:30  INFO 18300 --- [npp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T14:48:30.019+05:30  INFO 18300 --- [npp] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-06-17T14:48:30.020+05:30  WARN 18300 --- [npp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-06-17T14:48:30.095+05:30  WARN 18300 --- [npp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-17T14:48:30.173+05:30  INFO 18300 --- [npp] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62adf65b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28e0c09, org.springframework.security.web.context.SecurityContextHolderFilter@5ff9395f, org.springframework.security.web.header.HeaderWriterFilter@5e734b56, org.springframework.web.filter.CorsFilter@224dca1a, org.springframework.security.web.authentication.logout.LogoutFilter@116e25b2, com.project.npp.security.jwt.AuthTokenFilter@33991005, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d3985d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@795440df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16a0e4a1, org.springframework.security.web.session.SessionManagementFilter@23eba159, org.springframework.security.web.access.ExceptionTranslationFilter@2e898570, org.springframework.security.web.access.intercept.AuthorizationFilter@3b01fb01]
+2024-06-17T14:48:30.237+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-17T14:48:30.260+05:30  INFO 18300 --- [npp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-17T14:48:30.264+05:30  INFO 18300 --- [npp] [restartedMain] com.project.npp.NppApplication           : Started NppApplication in 0.994 seconds (process running for 6132.818)
+2024-06-17T14:48:30.267+05:30  INFO 18300 --- [npp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-17T15:06:43.233+05:30  WARN 18300 --- [npp] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m8s995ms691µs300ns).
+2024-06-17T15:17:43.223+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-17T15:17:43.228+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-17T15:17:43.234+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-17T15:17:44.859+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1157 ms
+2024-06-17T15:18:02.741+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-9] c.project.npp.controller.AuthController  : signin
+2024-06-17T15:18:02.935+05:30  INFO 18300 --- [npp] [http-nio-8080-exec-9] c.p.npp.service.UserEntityServiceImpl    : User found
+2024-06-17T15:18:27.818+05:30  INFO 18300 --- [npp] [RMI TCP Connection(58)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-17T15:18:27.849+05:30  INFO 18300 --- [npp] [RMI TCP Connection(58)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17T15:18:27.850+05:30  INFO 18300 --- [npp] [RMI TCP Connection(58)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-17T15:18:27.856+05:30  INFO 18300 --- [npp] [RMI TCP Connection(58)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
